@@ -1,0 +1,12 @@
+body {
+  background-color: #000000; }
+
+div {
+  text-align: center; }
+
+#hour, #minute, #second {
+  font-size: 4em;
+  font-family: 'Lato', sans-serif;
+  color: #ffffff;
+  display: inline-block;
+  line-height: 10em; }
