@@ -6,9 +6,9 @@
     // Create new Date
     var today = new Date();
     // Specify date hour/minute/second variables
-    var hours = today.getHours();
-    var minutes = today.getMinutes();
-    var seconds = today.getSeconds();
+    var hours = today.getHours().toString(16);
+    var minutes = today.getMinutes().toString(16);
+    var seconds = today.getSeconds().toString(16);
 
     console.log(hours);
     console.log(minutes);
